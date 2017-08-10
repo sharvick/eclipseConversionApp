@@ -1,1 +1,24 @@
- 
+ .mainLoadPage {
+   display: flex;
+   height: 100vh;
+   width:  100vw;
+   background-color: #DAA520;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .centerIcon {
+   height: 100px;
+   width:  100px;
+   background-color: #FFD700;
+   border: 5px solid #999999;
+   border-radius: 18px;
+
+ }
+
+img {
+  height: 100px;
+  width:  100px;
+  border-radius: 18px;
+  /*background-color: #d9ec96;*/
+}
