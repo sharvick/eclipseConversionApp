@@ -17,8 +17,8 @@
  }
 
 img {
-  height: 100px;
-  width:  100px;
+  height: 135px;
+  width:  135px;
   border-radius: 18px;
   /*background-color: #d9ec96;*/
 }
@@ -28,7 +28,51 @@ img {
 *************************/
 
 .mainDiv {
+  display: flex;
   height: 100vh;
   width:  100vw;
   background-color: #86bfbb;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/*header {
+  height: 20%;
+  width: 100vw;
+  background-color: #999999;
+}*/
+.headerDiv {
+  height: 15%;
+  width:  99vw;
+  background-color: #999999;
+  border: 2px solid black;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.conversionOne {
+  height: 140px;
+  width:  140px;
+  background-color: #116372;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.conversionTwo {
+  height: 140px;
+  width:  140px;
+  background-color: #116372;
+}
+.conversionThree {
+  height: 140px;
+  width:  140px;
+  background-color: #116372;
+}
+.conversionFour {
+  height: 140px;
+  width:  140px;
+  background-color: #116372;
+}
+.conversionFive {
+  height: 140px;
+  width:  140px;
+  background-color: #116372;
 }
