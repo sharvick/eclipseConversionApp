@@ -19,12 +19,14 @@
  #loadImg {
    height: 200px;
    width:  200px;
- }
+   animation: spin 10s linear infinite;
+   }
+  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 img {
-  height: 100px;
-  width:  100px;
-  /*border-radius: 18px;*/
+  height: 110px;
+  width:  110px;
+  border-radius: 9px;
   /*background-color: #d9ec96;*/
 }
 
@@ -38,7 +40,7 @@ img {
   width:  100vw;
   background-color: #86bfbb;
   flex-direction: column;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
 }
 
 /*header {
@@ -47,19 +49,70 @@ img {
   background-color: #999999;
 }*/
 .headerDiv {
-  height: 15%;
-  width:  99vw;
-  background-color: #999999;
-  border: 2px solid black;
+  height: 20%;
+  min-width:  100vw;
+  background-color: #EFA04F;
+  border-bottom: 2px solid white;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
-.conversionOne {
-  height: 140px;
-  width:  140px;
+.iconHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  width:  100vw;
   background-color: #116372;
-  border: 2px solid black;
-  border-radius: 8px;
+  border-bottom: 2px solid white;
+}
+
+#usFlag {
+  margin-top:  20px;
+  margin-left: 20px;
+}
+.canadaDiv {
+  display: flex;
+  height: 15%;
+  width: 100vw;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #116372;
+}
+.swissDiv {
+  display: flex;
+  height: 15%;
+  width: 100vw;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #116372;
+}
+.europeDiv {
+  display: flex;
+  height: 15%;
+  width: 100vw;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #116372;
+}
+.japanDiv {
+  display: flex;
+  height: 15%;
+  width: 100vw;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #116372;
+}
+.britishDiv {
+  display: flex;
+  height: 15%;
+  width: 100vw;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #116372;
+}
+.conversionOne {
+  height: 110px;
+  width:  110px;
+  margin-top: 20px;
+  background-color: #116372;
+  border: 1px solid white;
+  border-radius: 10px;
+
 }
 .conversionTwo {
   height: 140px;
