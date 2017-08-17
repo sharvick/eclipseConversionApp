@@ -2,90 +2,110 @@
 <html>
   <head>
     <meta charset="utf-8">
+<!-- Responsive   -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home Page</title>
-    <link rel="stylesheet" href="css/min/main-min.css">
+
+<!-- CDN LINK  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+
+  <link rel="stylesheet" href="css/min/main-min.css">
   </head>
   <body>
+
+<!-- MAIN DIV  -->
     <div class="mainDiv">
 
         <div class="header">
           <img id="appIcon" src="images/appIconYellow.svg" alt="appIconCenter">
         </div>
 
+<!--US Default Box  -->
       <div class="entryBox">
-              <div class="flag">
-            <!-- <img src="https://images-na.ssl-images-amazon.com/images/I/51o%2Bc6DHSgL._SL1200_.jpg" alt="canadianFlag"> -->
+              <div class="flagBox">
+            <img class="flag" src="images/us.svg" alt="US Flag">
               </div>
           <div class="conversionEntry">
             <form>
               <label for="dollarAmt"></label>
               <input type="text" name="dollarAmt" value="">
+              <p>USD - US Dollar</p>
             </form>
           </div>
         </div>
 
+<!--Great Britain Box  -->
       <div class="conversionBox">
-          <div class="flagOne">
-              <!-- <img src="https://images-na.ssl-images-amazon.com/images/I/51o%2Bc6DHSgL._SL1200_.jpg" alt="canadianFlag"> -->
+          <div class="flagBoxOne">
+              <img class="flag" src="images/gb.svg" alt="British Flag">
           </div>
           <div class="resultField">
             <form>
               <label for="results"></label>
               <input type="text" name="results" value="">
+              <p>GBP - British Pound<br>1 USD = 0.7772</p>
             </form>
           </div>
       </div>
 
+<!--Canada Box  -->
       <div class="conversionBox">
-          <div class="flagOne">
-            <!-- <img src="https://www.theflagshop.co.uk/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/s/w/switzerland-flag-8x5.gif" alt="swissFlag"> -->
+          <div class="flagBoxOne">
+            <img class="flag" src="images/ca.svg" alt="Canadian Flag">
           </div>
-
           <div class="resultField">
               <form>
                 <label for="results"></label>
                 <input type="text" name="results" value="">
+                <p>CAD - Canadian Dollar<br>1 USD = 1.2761 CAD</p>
               </form>
           </div>
       </div>
 
+<!--Japan Box  -->
       <div class="conversionBox">
-        <div class="flagOne">
-          <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1280px-Flag_of_Europe.svg.png" alt="europeanFlag"> -->
+        <div class="flagBoxOne">
+          <img class="flag" src="images/japan.svg" alt="Japanese Flag">
         </div>
         <div class="resultField">
             <form>
               <label for="results"></label>
               <input type="text" name="results" value="">
+              <p>JPY - Japanese Yen<br>1 USD = 110.6747 JPY</p>
             </form>
         </div>
       </div>
 
+<!--Swiss Box   -->
       <div class="conversionBox">
-        <div class="flagOne">
-          <!-- <img src="https://images-na.ssl-images-amazon.com/images/I/21cA7eE4dzL._SL500_AC_SS350_.jpg" alt="japanFlag"> -->
+        <div class="flagBoxOne">
+          <img class="flag" src="images/swiss.svg" alt="Swiss Flag">
         </div>
         <div class="resultField">
             <form>
               <label for="results"></label>
               <input type="text" name="results" value="">
+              <p>CHF - Swiss Franc<br> 1 USD = 0.9728 CHF</p>
             </form>
         </div>
       </div>
 
+<!--Euro Box  -->
       <div class="conversionBox">
-        <div class="flagOne">
-          <!-- <img
-        src="https://upload.wikimedia.org/wikipedia/commons/1/17/Union_flag_1606_%28Kings_Colors%29.svg" alt="britishFlag">   -->
+        <div class="flagBoxOne">
+          <img class="flags" src="images/European_flag.svg" alt="European Flag">
         </div>
         <div class="resultField">
             <form>
               <label for="results"></label>
               <input type="text" name="results" value="">
+              <p>EUR - Euro<br>1 USD = 0.8519 EUR</p>
             </form>
         </div>
       </div>
 
+<!-- End of Main Div  -->
 </div>
 
 

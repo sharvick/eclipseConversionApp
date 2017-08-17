@@ -28,6 +28,8 @@ img {
               HOME PAGE
 *************************/
 
+/***** DIV CSS *****/
+
 .mainDiv {
   display: flex;
   min-height: 100vh;
@@ -52,6 +54,7 @@ img {
 .entryBox {
   display: flex;
   height: 300px;
+  background-color: #EFA04F;
 }
 
 .conversionEntry {
@@ -63,7 +66,6 @@ img {
   background-color: #EFA04F;
 }
 
-
 .conversionBox {
   display: flex;
   height: 254px;
@@ -71,12 +73,6 @@ img {
   border-bottom: solid 1px rgba(34, 90, 99, 0.2);
 }
 
-.flag {
-  height: 299px;
-  width:  200px;
-  background-color: #E5E5E5;
-  border-bottom: solid 1px rgba(34, 90, 99, 0.2);
-}
 .resultField {
   display: flex;
   align-items: center;
@@ -84,15 +80,45 @@ img {
   height: 254px;
   width:  764px;
 }
+
 input {
   height: 75px;
   width:  350px;
 }
 
-.flagOne {
+/****** FLAG CSS*****/
+
+.flagBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 299px;
+  width:  200px;
+  background-color: #E5E5E5;
+  border-bottom: solid 1px rgba(34, 90, 99, 0.2);
+}
+
+.flagBoxOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 254px;
   width: 200px;
   background-color: #E5E5E5;
   border-bottom: solid 1px rgba(34, 90, 99, 0.2);
+}
 
+.flag {
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+}
+
+
+/* Other CSS*/
+
+p {
+  font-size: 25px;
+  font-family: Helvetica;
+  color: #EFA04F;
 }
